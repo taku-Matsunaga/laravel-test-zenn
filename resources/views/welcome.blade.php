@@ -172,5 +172,10 @@
                 </div>
             </div>
         </div>
+        あなたの秘密キーは、{{ $secret }}です。
+
+        @if(today()->is('12-25'))
+            <h1>メリークリスマス！</h1>
+        @endif
     </body>
 </html>
